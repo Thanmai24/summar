@@ -194,7 +194,33 @@
 
 
 @media screen and (max-width: 600px) {
-    .result, .summary {
+    .card {
+        flex-direction: column;
+        margin-top: 80%;
+        margin-left:15%;
+        margin-right:15%;
+    }
+
+    .result,
+    .summary {
         width: 100%;
+    }
+
+    .result_description {
+        margin: 5% 25% 5% 25%;
+    }
+
+    .result_value {
+        padding: 8% 10%;
+        margin-top: 2%;
+    }
+
+    .continue {
+        margin: 5% 5% 10% 5%;
+    }
+
+    .result_heading,
+    .summary_heading {
+        margin-top: 5%;
     }
 }
